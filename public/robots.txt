@@ -1,0 +1,8 @@
+# robots.txt for firstbricks.in
+# Permits all search engine crawlers (Googlebot, Bingbot, etc.) to crawl and index all routes
+
+User-agent: *
+Allow: /
+
+# Canonical XML Sitemap for Google Search Console discovery
+Sitemap: https://firstbricks.in/sitemap.xml

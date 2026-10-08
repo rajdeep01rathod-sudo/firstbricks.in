@@ -1,0 +1,16 @@
+{
+  "name": "First Bricks – Personal Finance Decision Engine",
+  "short_name": "First Bricks",
+  "description": "Turn your financial situation into a plan with product-neutral decision tools: Home Loan Prepayment, Step-Up SIP, Health Check, and FIRE planning.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0A111C",
+  "theme_color": "#0B2545",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}

@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>First Bricks – Personal Finance Decision Engine</title>
+    <meta name="description" content="Turn your financial situation into clear, actionable decisions. Product-neutral financial health check, debt vs invest engine, and scenario planning." />
+    <meta name="keywords" content="personal finance, decision engine, financial health check, debt vs invest, FIRE calculator, emergency fund runway, can I afford this, first bricks" />
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+    <meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+    <meta name="bingbot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+    <link rel="canonical" href="https://firstbricks.in/" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="manifest" href="/site.webmanifest" />
+    
+    <!-- OpenGraph Metadata -->
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="First Bricks" />
+    <meta property="og:title" content="First Bricks – Personal Finance Decision Engine" />
+    <meta property="og:description" content="Turn your financial situation into clear, actionable decisions. Product-neutral financial health check, home loan step-up prepayment, SIP compounding, and scenario planning." />
+    <meta property="og:url" content="https://firstbricks.in/" />
+    <meta property="og:image" content="https://firstbricks.in/og-image.svg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="First Bricks – Personal Finance Decision Engine" />
+    <meta name="twitter:description" content="Turn your financial situation into clear, actionable decisions. Product-neutral financial health check, home loan step-up prepayment, SIP compounding, and scenario planning." />
+    <meta name="twitter:image" content="https://firstbricks.in/og-image.svg" />
+    
+    <!-- Performance-Optimized Lazy Analytics Loader (Delayed until idle / interaction to protect initial page load) -->
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+
+      (function() {
+        var analyticsLoaded = false;
+        function loadAnalytics() {
+          if (analyticsLoaded) return;
+          analyticsLoaded = true;
+
+          // Remove interaction listeners
+          ['scroll', 'mousemove', 'touchstart', 'keydown'].forEach(function(evt) {
+            window.removeEventListener(evt, loadAnalytics, { passive: true });
+          });
+
+          // 1. Google Tag (gtag.js)
+          var gtagScript = document.createElement('script');
+          gtagScript.async = true;
+          gtagScript.src = 'https://www.googletagmanager.com/gtag/js?id=G-LFRDDQQ2Q5';
+          document.head.appendChild(gtagScript);
+
+          gtag('js', new Date());
+          gtag('config', 'G-LFRDDQQ2Q5');
+
+          // 2. Microsoft Clarity
+          (function(c,l,a,r,i,t,y){
+            c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+            t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i+"?ref=bwt";
+            y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+          })(window, document, "clarity", "script", "yum2h2fhyg");
+        }
+
+        // Trigger on first user engagement (scroll, touch, key, pointer)
+        ['scroll', 'mousemove', 'touchstart', 'keydown'].forEach(function(evt) {
+          window.addEventListener(evt, loadAnalytics, { passive: true, once: true });
+        });
+
+        // Fallback: load after page load and idle delay (2.5s - 3s)
+        if ('requestIdleCallback' in window) {
+          window.addEventListener('load', function() {
+            requestIdleCallback(function() {
+              setTimeout(loadAnalytics, 2500);
+            }, { timeout: 4000 });
+          });
+        } else {
+          window.addEventListener('load', function() {
+            setTimeout(loadAnalytics, 3000);
+          });
+        }
+      })();
+    </script>
+
+    <!-- Google Fonts: Plus Jakarta Sans & JetBrains Mono -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
+
+    <!-- Schema.org JSON-LD Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebApplication",
+      "name": "First Bricks",
+      "url": "https://firstbricks.in",
+      "applicationCategory": "FinanceApplication",
+      "operatingSystem": "All",
+      "description": "Product-neutral personal finance decision engine that transforms your income, expenses, debt, and savings into actionable plans, scenario stress-tests, and prioritized next steps.",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD"
+      },
+      "featureList": [
+        "Financial Health Check & 6-Brick Foundation Assessment",
+        "Home Loan Step-Up EMI & Prepayment Calculator",
+        "Step-Up SIP & Inflation-Adjusted Wealth Calculator",
+        "Can I Afford This? Major Purchase Simulator",
+        "Debt vs Invest Mathematical Decision Engine",
+        "Debt Avalanche vs Snowball Payoff Simulator",
+        "Retirement & Financial Independence (FIRE) Engine",
+        "Emergency Fund & Income Drop Stress-Test Simulator",
+        "Multi-Scenario Comparison Matrix (Base, Optimistic, Stress)"
+      ]
+    }
+    </script>
+  </head>
+  <body class="bg-neutral-50 text-neutral-900 antialiased selection:bg-neutral-900 selection:text-white">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
+

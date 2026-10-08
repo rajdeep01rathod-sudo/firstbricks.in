@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <!-- Clean Neutral Background with Subtle Radial Glow -->
+  <rect width="1200" height="630" fill="#0A111C"/>
+  <circle cx="280" cy="300" r="450" fill="#10B981" opacity="0.08" filter="blur(80px)"/>
+
+  <!-- Border Frame -->
+  <rect x="30" y="30" width="1140" height="570" rx="24" fill="none" stroke="#1E293B" stroke-width="2"/>
+
+  <!-- Logo Mark Scaled -->
+  <g transform="translate(100, 150) scale(2.4)">
+    <!-- Arrow -->
+    <path d="M58 36L78 18M78 18V30M78 18H66" stroke="#10B981" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+    <polygon points="78,14 86,22 74,24" fill="#10B981"/>
+
+    <!-- Brick 1 -->
+    <polygon points="32,60 58,47 42,39 16,52" fill="#24334A"/>
+    <polygon points="16,52 42,39 42,50 16,63" fill="#162235"/>
+    <polygon points="16,63 42,50 42,61 16,74" fill="#0E1726"/>
+    <polygon points="42,50 58,42 58,53 42,61" fill="#0A111C"/>
+
+    <!-- Brick 2 -->
+    <polygon points="40,46 66,33 50,25 24,38" fill="#34D399"/>
+    <polygon points="24,38 50,25 50,35 24,48" fill="#10B981"/>
+    <polygon points="24,48 50,35 50,45 24,58" fill="#059669"/>
+    <polygon points="50,35 66,27 66,37 50,45" fill="#047857"/>
+
+    <!-- Brick 3 -->
+    <polygon points="48,32 74,19 58,11 32,24" fill="#334155"/>
+    <polygon points="32,24 58,11 58,21 32,34" fill="#1E293B"/>
+    <polygon points="32,34 58,21 58,31 32,44" fill="#0F172A"/>
+    <polygon points="58,21 74,13 74,23 58,31" fill="#090E17"/>
+  </g>
+
+  <!-- Typography -->
+  <text x="360" y="230" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-size="72" font-weight="900" fill="#FFFFFF" letter-spacing="-2">
+    firstbricks<tspan fill="#10B981">.in</tspan>
+  </text>
+  <text x="365" y="280" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-size="24" font-weight="700" fill="#94A3B8" letter-spacing="1">
+    PERSONAL FINANCE DECISION ENGINE
+  </text>
+
+  <text x="100" y="420" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-size="44" font-weight="800" fill="#FFFFFF" letter-spacing="-1">
+    Turn your financial situation into a plan.
+  </text>
+  <text x="100" y="475" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-size="22" font-weight="500" fill="#94A3B8">
+    Home Loan Prepayments · Step-Up SIPs · Financial Health Check · 100% Client-Side Private
+  </text>
+
+  <!-- Badges -->
+  <g transform="translate(100, 520)">
+    <rect width="210" height="42" rx="10" fill="#064E3B"/>
+    <text x="16" y="27" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-size="14" font-weight="700" fill="#34D399">
+      ✓ 100% Product-Neutral
+    </text>
+
+    <rect x="230" width="240" height="42" rx="10" fill="#1E293B"/>
+    <text x="246" y="27" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-size="14" font-weight="700" fill="#E2E8F0">
+      🔒 100% In-Browser Private
+    </text>
+  </g>
+</svg>

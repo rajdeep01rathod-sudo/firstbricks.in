@@ -1,0 +1,6 @@
+{
+  "name": "First Bricks – Personal Finance Decision Engine",
+  "description": "Turn your financial situation into clear, actionable decisions. Product-neutral financial health check, debt vs invest engine, and scenario planning.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

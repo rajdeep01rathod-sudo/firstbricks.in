@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+        http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+  <!-- Core Landing Page -->
+  <url>
+    <loc>https://firstbricks.in/</loc>
+    <lastmod>2026-10-08</lastmod>
+    <priority>1.0</priority>
+  </url>
+
+  <!-- Flagship Health Diagnostic -->
+  <url>
+    <loc>https://firstbricks.in/health-check/</loc>
+    <lastmod>2026-10-08</lastmod>
+    <priority>0.95</priority>
+  </url>
+
+  <!-- Flagship Visual Showdown: Prepay vs Invest -->
+  <url>
+    <loc>https://firstbricks.in/prepay-vs-invest/</loc>
+    <lastmod>2026-10-08</lastmod>
+    <priority>0.95</priority>
+  </url>
+
+  <!-- Popular High-Traffic Calculators -->
+  <url>
+    <loc>https://firstbricks.in/home-loan/</loc>
+    <lastmod>2026-10-08</lastmod>
+    <priority>0.95</priority>
+  </url>
+  <url>
+    <loc>https://firstbricks.in/sip-calculator/</loc>
+    <lastmod>2026-10-08</lastmod>
+    <priority>0.95</priority>
+  </url>
+  <url>
+    <loc>https://firstbricks.in/calculators/</loc>
+    <lastmod>2026-10-08</lastmod>
+    <priority>0.90</priority>
+  </url>
+
+  <!-- Specialized Financial Decision Engines -->
+  <url>
+    <loc>https://firstbricks.in/debt-vs-invest/</loc>
+    <lastmod>2026-10-08</lastmod>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://firstbricks.in/affordability/</loc>
+    <lastmod>2026-10-08</lastmod>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://firstbricks.in/fire-engine/</loc>
+    <lastmod>2026-10-08</lastmod>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://firstbricks.in/debt-payoff/</loc>
+    <lastmod>2026-10-08</lastmod>
+    <priority>0.85</priority>
+  </url>
+
+  <!-- Framework & Architecture -->
+  <url>
+    <loc>https://firstbricks.in/framework/</loc>
+    <lastmod>2026-10-08</lastmod>
+    <priority>0.80</priority>
+  </url>
+
+  <!-- Articles & Quantitative Research Hub -->
+  <url>
+    <loc>https://firstbricks.in/articles/</loc>
+    <lastmod>2026-10-08</lastmod>
+    <priority>0.90</priority>
+  </url>
+
+  <!-- Individual Quantitative Research Articles (Clean, Short, Descriptive URLs) -->
+  <url>
+    <loc>https://firstbricks.in/articles/home-loan-prepayment/</loc>
+    <lastmod>2026-10-08</lastmod>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://firstbricks.in/articles/step-up-sip-inflation/</loc>
+    <lastmod>2026-10-08</lastmod>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://firstbricks.in/articles/debt-vs-investing/</loc>
+    <lastmod>2026-10-08</lastmod>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://firstbricks.in/articles/coast-fire/</loc>
+    <lastmod>2026-10-08</lastmod>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://firstbricks.in/articles/car-affordability/</loc>
+    <lastmod>2026-10-08</lastmod>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://firstbricks.in/articles/rent-vs-buy/</loc>
+    <lastmod>2026-10-08</lastmod>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://firstbricks.in/articles/debt-payoff-methods/</loc>
+    <lastmod>2026-10-08</lastmod>
+    <priority>0.85</priority>
+  </url>
+  <url>
+    <loc>https://firstbricks.in/articles/emergency-fund/</loc>
+    <lastmod>2026-10-08</lastmod>
+    <priority>0.85</priority>
+  </url>
+
+  <!-- Support & Contact -->
+  <url>
+    <loc>https://firstbricks.in/contact/</loc>
+    <lastmod>2026-10-08</lastmod>
+    <priority>0.70</priority>
+  </url>
+</urlset>
